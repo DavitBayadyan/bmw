@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>                   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mybakh</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>  
+    <link rel="shortcut icon" href="https://seeklogo.com/images/B/bike-logo-60D3C444D4-seeklogo.com.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="./css/modal.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/burger.css">
+    <link rel="stylesheet" href="./css/karzina.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div onclick="basel()" style="cursor: pointer;">
+            <p class="logo">Mybach</p>
+        </div>
+        <nav>
+            <ul id="menu">
+            </ul>
+
+     
+                <div class="burger" onclick="burger()">
+                    <div class="ereq"></div>
+                    <div class="ereq"></div>
+                    <div class="ereq"></div>
+                </div>
+    
+                <ul id="manMenu">
+    
+                </ul>
+        
+
+        </nav>   
+        <!-- <input id="range" type="range" onchange="ll()"> -->
+        <label for="">
+            <input id="search" type="search" onchange="carderiks(),base()" placeholder="NAME/SIZE">
+            <!-- <i class="fa fa-search" aria-hidden="true"></i> -->
+        </label>
+        <div id="user">
+            <div class="leng">
+                <h6>eng</h6>
+                <h6>ru</h6>
+            </div>
+            <div id="userinfo">
+                <button class="btn" id="myBtnLog">login</button>
+                <button class="btn" id="myBtn">register</button>
+        </div> 
+         <div class="basket" onclick="basketopen()" id="myBtnmy">
+      <p id="basketSum">0</p>
+      <img width="55px" src="https://cdn-icons-png.flaticon.com/512/3081/3081929.png" alt="">
+    
+  </div>
+           
+    </header>
+    <div class="baskerCards"></div>
+
+    </div>
+    <section class="s1">
+        <div id="carusel">
+            <i id="faf" style="font-size: 60px; color: white; margin-right: 20px;" class='fa fa-chevron-left' onclick="y()"></i>
+          
+            <div id="itam_carusel">
+
+            </div>
+           
+            <i id="faf"  style="font-size: 60px; color: white; margin-left: 20px;"  class='fa fa-chevron-right' onclick="x()"></i>
+        </div>
+
+
+        <div class="inpflex">
+        <div>
+            <!-- <label for="min-price">Minimum price:</label> -->
+            <input type="number" id="min-price" name="min-price" max="600" placeholder="Min Price">
+          </div>
+          <div>
+            <!-- <label for="max-price">Maximum price:</label> -->
+            <input type="number" id="max-price" name="max-price" max="700" placeholder="Max Price">
+          </div>
+        </div>
+
+
+        <div class="filt">
+          <button id="filter-button">Filter</button>
+        </div>
+
+
+
+
+
+
+
+            <div class="cards" >
+
+            </div >
+            <div id="pag"></div>
+
+    </section >
+    <footer>
+
+    </footer>
+
+    <div id="myModal3" class="modal"> 
+         <!-- Modal content -->
+          <div class="modal-content">
+             <div class="modal-header">
+                 <span class="close3">&times;</span>
+                 <h2>LOGIN</h2>
+             </div>
+                 <div class="modal-body">
+                     <input type="email"  placeholder="@mail"> <br>
+                     <input type="password"  placeholder="password"> <br>
+                     <label for="">
+                       I'M NOT A ROBOT
+                        <input type="checkbox">
+                     </label><br>
+                    
+                     <button class="modal_brn">Submeeth</button>
+                 </div>
+                 <div class="modal-footer">
+                     <h3>Thanck you</h3>
+                 </div>
+             </div>
+         </div>
+     </div>  
+
+ <!-- Modal content--> 
+ <div id="myModal" class="modal">
+  <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Registration</h2>
+        </div>
+            <div class="modal-body">
+                <input type="text"  placeholder="Name"> <br>
+                <input type="text"  placeholder="Surname"> <br>
+                <input type="date"  placeholder="Age"> <br>
+                <input type="email"  placeholder="@mail"> <br>
+                <input type="password"  placeholder="password"> <br>
+                <input type="password"  placeholder="reject password"> <br>
+                <label for="">
+                    male
+                    <input type="radio" name="c">
+                </label>
+                <label for="">
+                    female
+                    <input type="radio" name="c">
+                </label><br>
+                
+                <label for="">
+                    im noth robot
+                    <input type="checkbox">
+                </label><br>
+                
+                <button class="modal_brn">submeeth</button>
+            </div>
+            <div class="modal-footer">
+                <h3>thanck you</h3>
+            </div>
+        </div>
+    </div>
+<!-- </div>  -->
+
+    <!--===================== The Modal ===================-->
+
+    <!-- <div id="myModalz" class="modal1">
+        <div class="qw">  
+      
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close1">&times;</span>
+          <h2 style="text-align: center;">LOGIN</h2>
+        </div>
+        <div class="modal-body" >
+          <input  class="reg" type="email" placeholder="EMAIL"><br>
+          <input class="reg"  type="password" placeholder="PASSWORD"><br> <br>
+          <button class="mm">SUBMIT</button>
+        </div>
+    </div>
+    </div>
+    </div> -->
+     <!-- ===================== The Modal =================== -->
+
+     <div id="myModalq" class="modal2">
+    
+        <div class="modal-content1">
+         <div class="modal-header1">
+           <span class="close22">&times;</span>
+           <h2 style="text-align: center">Thanks for shopping</h2>
+          
+         </div> 
+
+  <div class="hashiv" id="totalPrice"> 0 <p style="color:rgb(5, 9, 99)">&#36</p> </div> 
+
+         <div class="modal-body2"  id="baskerCard">
+         <div class="pust">   
+           <img width="300px" class="korImg" src="https://www.velosklad.ru/mob/img/emptycart.png"/><p>Your basket is empty.</p>
+         </div> 
+         </div>
+        </div>
+
+ </div>
+
+
+
+      
+
+    <script src="./js/index.js"></script>
+    
+    <script src="./js/carusell.js"></script>
+    <script src="./js/test_date.js"></script>
+    <script src="./js/caards.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/poisk.js"></script>
+    <script src="./js/karzina.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+.ereq{
+    width: 25px;
+    margin: 5px;
+    border: 2px solid white;
+}
+/*
+.basket{
+    position: fixed;
+    right: 10px;
+    top: 20px;
+ 
+ }
+ 
+ .basket p{
+    position: relative;
+    right: -10px;
+    top: 10px;
+    width:  19px;
+ padding:1px 5px;
+     border-radius: 100%;
+     background-color: red;
+     z-index: -1;
+ }
+ .cardKarzina{
+     width: 100%;
+     height: 200px;
+ }
+ .cardbasket {
+     text-align: center;
+     width: 200px;
+     padding: 1%;
+     margin: 30px;
+     object-fit: cover;
+     text-align: center;
+     font-weight: 700;
+     font-size: 15px;
+     position: relative;
+     height: 300px;
+     background-color: white;
+     border: 3px solid rgb(42, 165, 126);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+     cursor: pointer;
+ }
+ .cardbasket:hover{
+  transform: scale(1.1);
+  
+ }
+ 
+ .imgKorzina{
+     width: 90%;
+     height: 80%;
+ 
+ }
+ .btnKarzina{
+     margin-top: 10px;
+     padding: 5px 10px;
+     border-radius: 8px;
+     border: none;
+     box-shadow: inset 0 0 10px black;
+     font-size: 15px;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     border: 1px solid white;
+ }
+ .btnKarzina:hover{
+     cursor: pointer;
+     background-color: rgb(42, 165, 126);
+     color: white;
+ }
+ .image2{
+    width: 100%;
+    height: 50%;
+ }
+ 
+ 
+ .hashiv{
+     width: 100px;
+     height: 30px;
+     border: 2px solid rgb(42, 165, 126);
+     background-color:  rgb(241, 241, 241);
+     align-items:center;
+     display:flex;
+     justify-content: center;
+     margin: 2px 45%;
+ }
+ .pust{
+     font-size: 25px;
+     font-weight: 700;
+     padding: 20px;
+ }
+  */
